@@ -16,8 +16,8 @@ body {
 .container{
     background-color: cornsilk;
     border-radius: 5px;
-    width: 90%;
-    min-width: 375px;
+    width: 80%;
+    min-width: 360px;
     padding: 15px;
     left: 50%;
     top: 50%;
@@ -37,10 +37,25 @@ p {
     text-align: center;
     font-size: 15px;
     font-weight: 400;
+    position: relative;
+    margin: auto;
 }
 
 form {
     width: 100%;
     position: relative;
     margin: 15px auto 0px auto;
+}
+
+.row {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+    gap: 15px 15px;
+    margin-bottom: 15px;
+}
+
+label {
+    color: rgb(148, 73, 20);
+    font-size: 15px;
 }
