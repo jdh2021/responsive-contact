@@ -33,7 +33,7 @@ h1 {
 
 p {
     width: 100%;
-    color: rgb(146, 130, 49);
+    color: rgb(163, 146, 62);
     text-align: center;
     font-size: 15px;
     font-weight: 400;
@@ -63,10 +63,27 @@ label {
 textarea, 
 input {
     width: 100%;
+    color: rgb(148, 73, 20);
     font-weight: 500;
     padding: 6px;
     margin-top: 6px;
-    border: 1px solid rgb(148, 73, 20);
+    border: 1.4px solid rgb(163, 146, 62);
     border-radius: 3px;
     background-color: cornsilk;
 }
+
+textarea:focus,
+input:focus{
+    outline: none;
+    border-color: rgb(130, 62, 14);
+}
+
+textarea {
+    resize: none;
+}
+
+::placeholder {
+    color: rgb(163, 146, 62);
+}
+
+
