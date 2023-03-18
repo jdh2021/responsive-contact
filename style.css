@@ -56,6 +56,17 @@ form {
 }
 
 label {
-    color: rgb(148, 73, 20);
     font-size: 15px;
+    color: rgb(148, 73, 20);
+}
+
+textarea, 
+input {
+    width: 100%;
+    font-weight: 500;
+    padding: 6px;
+    margin-top: 6px;
+    border: 1px solid rgb(148, 73, 20);
+    border-radius: 3px;
+    background-color: cornsilk;
 }
