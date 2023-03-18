@@ -1,6 +1,6 @@
-## Responsive Registration Form
+## Responsive Contact Form
 
-I made a responsive registration form using HTML and CSS Grid with template columns and without media query breakpoints. 
+I made a responsive contact form using HTML and CSS Grid with template columns and without media query breakpoints. 
 
 <h4 align="center">Condensed</h4>
 <div align="center">
